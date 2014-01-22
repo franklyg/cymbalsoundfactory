@@ -1,0 +1,225 @@
+body{
+    background: #000;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.after{
+    content: "";
+    display: block;
+    clear: both;
+    /*visibility: none;*/
+}
+#inner-main, #inner-footer, #inner-logo-nav{
+    width: 1140px;
+    margin: 0 auto;
+}
+[class*="column"] + [class*="column"]:last-child{
+    float: left;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 1140px;
+    clear: both;
+}
+
+#main{
+    width: 100%;
+    background: #000;
+    position: relative;
+    z-index: 1;
+}
+/*Nav Pieces*/
+#logo-nav {
+    width: 100%;
+    height: 100%;
+    height: 0px;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+}
+
+#inner-logo-nav ul li{
+    float: left;
+    margin-right: 8%;
+}
+#inner-logo-nav ul li:nth-child(4){
+    margin-right: 31px;
+}
+#search-bar{
+    width: 100%;
+    height: 85px;
+    background: #fff;
+}
+#menu-btn{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    width: 40%;
+}
+/*.height{
+    height: 335px;
+    border: 1px solid white;
+}*/
+.cymbal-pos{
+   margin: 3px 0px 0px 15px;
+}
+.mb95{
+    margin-bottom: 95px;
+}
+.in{
+    display: inline-block;
+}
+
+#inner-logo-nav:hover img {
+    opacity: .2;
+    -webkit-transition: opacity, .5s;
+    -moz-transition: opacity, .5s;
+}
+#inner-logo-nav img:hover{
+    opacity: 1;
+    -webkit-transition: opacity, .5s;
+    -moz-transition: opacity, .5s;
+
+}
+.model-name{
+    border-bottom: 2px solid white;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: lighter;   
+}
+.quick-sample{
+    width: 45px;
+   height: 45px;
+   float: left;
+   margin-left: 85px
+}
+.quick-sample img{
+    margin-top: 5px;
+}
+.detail{
+    width: 166px;
+    height: auto;
+    display: inline-block;
+    float: right;
+    margin-bottom: 0em;
+    padding: 7px;
+    margin-right: 45px
+}
+.detail p{
+     margin-bottom: 0em;
+     font-size: 18px;
+     font-weight: lighter;
+}
+.logo{
+    position: relative;
+    top:  -200px;
+    display: none;
+}
+/*Select*/
+.select-wrapper select{
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    color: white;
+    border-radius: 0;
+    padding: 10px;
+    -webkit-appearance: none;
+}
+.select-wrapper{
+    width: 260px;
+    height: 40px;
+    overflow: hidden;
+    background: url(../img/arrow.png) no-repeat right #202020;
+    margin-top: -25px;
+}
+option{
+    border: none;
+}
+
+.cymbal-info > div {
+    border: 2px solid white;
+}
+.hover-state p {
+    color: white;
+    text-align: center; 
+}
+/*footer*/
+#sign-up{
+    width: 435px;
+    float: left;
+    color: white;
+}
+#sign-up h2{
+    color: white;
+    font-size: 24px;
+}
+#sign-up p{
+    font-size: 14px;
+}
+
+input[type="text"]{
+    width: 275px;
+    height: 45px;
+}
+input[type="button"]{
+    border: none;
+    height: 45px;
+    width: 95px;
+    background: #5f5f5f;
+    color: white;
+    font-weight: bold;
+}
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: none;
+}
+footer{
+    background: #1d1d1d;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+footer ul li{
+    width: 275px;
+    height: 45px;
+    background: #535353;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer ul li:hover{
+    background: #414244
+}
+#social{
+    vertical-align: top;
+}
+.hover-state{
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    opacity: 0;
+    -webkit-transition: height , .5s;
+    -moz-transition: height , .5s;
+}
+.large-4:hover .hover-state{
+    opacity: 1;
+}
+
+
+.la{
+    width: 100%;
+    height: 75px;
+    background: red;
+}

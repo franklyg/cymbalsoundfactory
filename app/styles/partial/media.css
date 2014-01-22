@@ -1,0 +1,102 @@
+@media screen and (max-width: 1024px){
+	#main, #inner-main, #inner-footer, footer, #logo-nav, #inner-logo-nav{
+		width: 100%;
+	}
+	#wrapper , #sign-up{
+		width: 90%;
+	}
+	.cymbal-pos  {
+		width: 100%;
+		margin: 3px 0 0 2px;
+	}
+	#inner-logo-nav ul li {
+		margin-right: 7%;
+	}
+	.logo > img{
+		width: 80%;
+	}
+	.column{
+		 margin-bottom: 15px;
+	}
+	.quick-sample{
+		width: 40px;
+		margin-left: 45px;
+	}
+	.detail{
+		margin-left: 20px;
+		width: 100px;
+	}
+}
+@media screen and (max-width: 768px){
+	#wrapper{
+		width: 100%;
+		padding: 10px;
+	}
+	.column{
+		width: 47%;
+		margin: 3px 0 0 1px;
+	}
+	.cymbal-pos{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.hover-state{
+		opacity: 1;
+	}
+	.logo > img{
+		width: 65%;
+	}
+	.quick-sample{
+		width: 40px;
+		margin-left: 25px;
+	}
+	.detail{
+		margin-right: 12px;
+		width: 120px;
+	}
+
+}
+@media screen and (max-width: 480px){
+	#wrapper {
+		width: 95%;
+		margin: 55px 0 0 0;
+	}
+	#inner-logo-nav{
+		display: none;
+	}
+	.column{
+		margin: 0 0px 7px -2px;
+		width: 100%;
+	}
+	.row{
+		margin-bottom: 5px;
+	}
+	.select-wrapper{
+		display: none;
+	}
+	.cymbal-pos{
+		width: 95%;
+		margin: 3px 0 0 20px;
+	}
+	.hover-state{
+		left: 9px;
+	}
+	#menu-btn{
+		float: right;
+	}
+	#menu-btn p{
+		display: none;
+	}
+	#search-bar{
+		height: 55px;
+		position: relative;
+	}
+	#menu-btn{
+		top: 10px;
+		left: -11px;
+		width: 10%;
+	}
+}
+@media screen and (max-width: 320px){
+	
+}
